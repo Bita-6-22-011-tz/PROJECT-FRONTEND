@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color: darkblue;
+ }
+ 
+ header{
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+ }
+ .main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+ }
+ .navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+ }
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+ }
+ .logo{
+    color: #cc5e03;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2px;
+    float: left;
+    padding-top: 10px;
+    margin-left: 0px;
+ }
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 16px;
+ }
+ ul li a{
+    text-decoration: none;
+    color: rgb(29, 22, 22);
+    font-family: 'Times New Roman';
+    font-weight: bold;
+ }
+ ul li a:hover{
+    color: chartreuse;
+ }
+ .VITAE{
+    color: brown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-align: left;
+ 
+ }
+ p1{
+    color: chartreuse;
+    font-size: 30px;
+ }
+ P2{
+    color: forestgreen;
+    font-style: italic;
+    font-size: 20px;
+ }
+ 
+ h3{
+    color: chocolate;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+    text-decoration-color: aqua;
+ }
+ a{
+    color: aqua;
+ }
+ 

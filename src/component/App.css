@@ -1,0 +1,514 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #000;
+  border: 1px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  columns: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li strong {
+  font-weight: bold;
+  color: #337ab7;
+}
+
+.get-started-btn {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: #23527c;
+}
+
+.help {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.help h1 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+.contact {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-our-location, .contact-get-in-touch, .contact-email-us, .contact-hours-of-operation, .contact-need-help {
+  background-color: #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-our-location h2, .contact-get-in-touch h2, .contact-email-us h2, .contact-hours-of-operation h2, .contact-need-help h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-footer {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.cetform{
+  margin: 40px;
+}
+
+
+
+.home1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  padding: 20px;
+}
+
+.home1-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home1-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  color: #333;
+}
+
+.home1-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home1-button:hover {
+  background-color: #3e8e41;
+}
+
+.home1-user-card {
+  border-color: #337ab7;
+}
+
+.home1-admin-card {
+  border-color: #ff9900;
+}
+
+
+
+.certificate-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-fieldset {
+  border: none;
+  padding: 0;
+}
+
+
+.certificate-title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.certificate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.primary-school-section, .secondary-school-section, .institution-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+
+.next-button {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #23527c;
+}
+
+
+
+
+
+.dipform {
+  width: 75%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ff9900;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dipform fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+
+
+.dipform h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dipform h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.dipform label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dipform input[type="text"],.dipform input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.dipform input[type="text"]:focus,.dipform input[type="number"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dipform input[type="submit"] {
+  background-color: #4CAF50;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dipform input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+
+.dipform button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: chartreuse;
+  border: none;
+  border-radius: 5px;
+
+}
+
+
+
+
+
+.digform {
+  width: 70%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #4CAF50; 
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.digform h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.digform h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.digform label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.digform input[type="text"], .digform input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.digform input[type="text"]:focus, .digform input[type="number"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.digform button[type="submit"] {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.digform button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.digform a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.digform a:hover {
+  color: #23527c;
+}
+
+
+
+.ELEVEL{
+  margin: 40px;
+
+}
+
+.ELEVEL button[type="Submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.ELEVEL button[type="Submit"]:hover {
+  background-color: #ff9900;
+}
+
+.skills1 button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.skills1 button:hover {
+  background-color: #61dafb;
+}
+
+
+.work1 {
+  width: 60%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+
+}
+
+.work1 h1 {
+  margin-top: 4px;
+}
+
+.work1 label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.work1 input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.work1 button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.work1 button:hover {
+  background-color: #3e8e41;
+}
